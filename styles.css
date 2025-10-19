@@ -2,6 +2,12 @@ h1{
     width: fit-content;
     margin: 3rem auto;
 }
+bold{
+    color: rgb(249, 204, 71);
+   
+    
+}
+
 /* Dont know what this is for yet */
 html,body{ height:100%; }
 body{
@@ -44,7 +50,7 @@ body{
 }
 
 .post-body p{
-  margin-bottom:12px;
+  margin-bottom:50px;
   color:#111827;
 }
 
@@ -55,4 +61,23 @@ body{
 
 .post-body strong{
   color:var(--accent);
+}
+/*
+@media (min-width:900px){
+  .post{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    height:420px;
+  }
+  .post-image{ height:100%; width:100%; }
+  .post-body{ padding:28px; align-self:center; }
+}
+
+
+ Small niceties 
+h1{
+  text-align:center;
+  margin-bottom:18px;
+  font-size:20px;
+  color:#0f172a;
 }
