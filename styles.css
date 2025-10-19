@@ -3,10 +3,31 @@ h1{
     margin: 3rem auto;
 }
 bold{
-    color: rgb(249, 204, 71);
+    color: rgb(238, 199, 81);
    
     
 }
+
+/* Background and colors */
+:root{
+  --bg: #ffffff;
+  --card: #ffffff;
+  --muted: #37ff00;
+  --accent: #a4a4a4;
+  --radius: 12px;
+}
+
+.post-title{
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 5.6rem;
+  letter-spacing: 2.8px;
+  color: #ff0000;
+  text-shadow: 0 40px 18px rgba(0,0,0,0.45);
+ 
+}
+  
+
 
 /* Dont know what this is for yet */
 html,body{ height:100%; }
@@ -61,23 +82,4 @@ body{
 
 .post-body strong{
   color:var(--accent);
-}
-/*
-@media (min-width:900px){
-  .post{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    height:420px;
-  }
-  .post-image{ height:100%; width:100%; }
-  .post-body{ padding:28px; align-self:center; }
-}
-
-
- Small niceties 
-h1{
-  text-align:center;
-  margin-bottom:18px;
-  font-size:20px;
-  color:#0f172a;
 }
