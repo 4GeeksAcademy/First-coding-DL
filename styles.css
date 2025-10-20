@@ -7,6 +7,9 @@ bold{
    
     
 }
+h3{
+  color: rgb(127, 126, 85);
+}
 
 /* Background and colors */
 :root{
@@ -40,6 +43,7 @@ body{
   padding:48px 16px;
   color:#111827;
 }
+
 /* Card / Post (Animation)*/
 .post{
   width:100%;
